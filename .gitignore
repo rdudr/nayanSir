@@ -42,3 +42,15 @@ Thumbs.db
 
 # Graphify generated output
 graphify-out/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Local editor / tooling config
+.claude/
+
+# Local source assets (originals kept on disk, not needed in the deployed repo)
+/team photos/
+/Rishabh.png
+/ridth.png
+/NARANSIR.jpg
