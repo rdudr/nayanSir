@@ -10,38 +10,6 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navbar />
 
-      {/* Floating Corner Buttons - Bottom Right - With Real Logos */}
-      <div className="fixed right-6 bottom-6 z-40 flex flex-col gap-3 md:flex md:flex-col md:gap-3">
-        {/* Google Scholar Button */}
-        <Link href="https://scholar.google.com/citations?user=g93A33UAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-          <button className="group relative bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 text-white px-4 py-3 rounded-2xl hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 transition-all shadow-xl hover:shadow-2xl transform hover:scale-110 hover:-translate-y-1 border border-blue-400 hover:border-blue-300 flex items-center gap-2 whitespace-nowrap">
-            {/* Google Scholar Logo - G Icon */}
-            <div className="w-6 h-6 flex items-center justify-center bg-white text-blue-700 rounded font-bold text-sm">G</div>
-            <div className="hidden sm:block">
-              <div className="text-xs font-semibold">Google Scholar</div>
-              <div className="text-xs opacity-90">Citations Profile</div>
-            </div>
-            <div className="absolute -inset-0.5 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity -z-10"></div>
-          </button>
-        </Link>
-
-        {/* Scopus Button */}
-        <Link href="https://www.scopus.com/authid/detail.uri?authorId=24537626100" target="_blank" rel="noopener noreferrer">
-          <button className="group relative bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 text-white px-4 py-3 rounded-2xl hover:from-orange-600 hover:via-orange-700 hover:to-orange-800 transition-all shadow-xl hover:shadow-2xl transform hover:scale-110 hover:-translate-y-1 border border-orange-400 hover:border-orange-300 flex items-center gap-2 whitespace-nowrap">
-            {/* Scopus Logo - Circular Design */}
-            <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-              <circle cx="12" cy="12" r="10" fill="white" opacity="0.9"/>
-              <path d="M12 4C7.58 4 4 7.58 4 12s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm2-8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-4 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#FF6B35"/>
-            </svg>
-            <div className="hidden sm:block">
-              <div className="text-xs font-semibold">Scopus Profile</div>
-              <div className="text-xs opacity-90">Research Profile</div>
-            </div>
-            <div className="absolute -inset-0.5 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity -z-10"></div>
-          </button>
-        </Link>
-      </div>
-
       {/* Main Layout */}
       <div className="flex flex-col lg:flex-row pt-32 gap-8 lg:gap-6 px-6 md:px-12 lg:px-16">
         {/* Profile Card - top on mobile/tablet, sticky sidebar on desktop */}
