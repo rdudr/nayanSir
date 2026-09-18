@@ -246,22 +246,7 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Quick Links */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {[
-              { title: 'Research', icon: '🔬', link: '/research' },
-              { title: 'Publications', icon: '📚', link: '/publications' },
-              { title: 'Teaching', icon: '🎓', link: '/teaching' },
-              { title: 'Team', icon: '👥', link: '/team' },
-            ].map((item, idx) => (
-              <Link key={idx} href={item.link}>
-                <div className="bg-gradient-to-br from-blue-50 to-teal-50 p-6 rounded-xl border-2 border-blue-100 hover:border-blue-300 transition-all cursor-pointer">
-                  <div className="text-4xl mb-3">{item.icon}</div>
-                  <h3 className="text-2xl font-bold text-blue-900">{item.title}</h3>
-                </div>
-              </Link>
-            ))}
-          </div>
+          {/* End of main content */}
         </motion.div>
       </div>
 
