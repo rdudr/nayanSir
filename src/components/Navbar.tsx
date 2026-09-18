@@ -57,25 +57,25 @@ export default function Navbar() {
               <img
                 src="/iitgn-logo.png"
                 alt="IIT Gandhinagar"
-                className={`object-contain transition-all duration-300 ${
-                  scrolled ? 'h-10 w-auto' : 'h-14 w-auto'
+                className={`object-contain flex-shrink-0 transition-all duration-300 ${
+                  scrolled ? 'h-9 w-auto max-h-9' : 'h-14 w-auto max-h-14'
                 }`}
               />
               <span
-                className={`w-px bg-blue-900/30 transition-all duration-300 ${
-                  scrolled ? 'h-8' : 'h-10'
+                className={`w-px bg-blue-900/30 transition-all duration-300 flex-shrink-0 ${
+                  scrolled ? 'h-7' : 'h-10'
                 }`}
               ></span>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/pssg-logo.png"
                 alt="PS&SG Lab"
-                className={`object-contain transition-all duration-300 ${
-                  scrolled ? 'h-8.5 w-auto' : 'h-12 w-auto'
+                className={`object-contain flex-shrink-0 transition-all duration-300 ${
+                  scrolled ? 'h-8 w-auto max-h-8' : 'h-11 w-auto max-h-11'
                 }`}
               />
               <span
-                className={`font-semibold tracking-tight text-blue-900 hover:text-blue-600 transition-all duration-300 ${
+                className={`font-semibold tracking-tight text-blue-900 hover:text-blue-600 transition-all duration-300 whitespace-nowrap ${
                   scrolled ? 'text-lg' : 'text-2xl'
                 }`}
               >
