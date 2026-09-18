@@ -49,9 +49,9 @@ export default function Home() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-sm mx-auto lg:mx-0 lg:flex-shrink-0"
+          className="w-full max-w-sm mx-auto lg:mx-0 lg:w-80 lg:flex-shrink-0"
         >
-          <div className="lg:sticky lg:top-32">
+          <div className="lg:sticky lg:top-28">
             <ProfileCard />
           </div>
         </motion.div>
