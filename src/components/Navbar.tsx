@@ -58,12 +58,12 @@ export default function Navbar() {
                 src="/iitgn-logo.png"
                 alt="IIT Gandhinagar"
                 className={`object-contain flex-shrink-0 transition-all duration-300 ${
-                  scrolled ? 'h-9 w-auto max-h-9' : 'h-14 w-auto max-h-14'
+                  scrolled ? 'h-9 w-9 max-h-9 max-w-9' : 'h-12 w-12 max-h-12 max-w-12'
                 }`}
               />
               <span
                 className={`w-px bg-blue-900/30 transition-all duration-300 flex-shrink-0 ${
-                  scrolled ? 'h-7' : 'h-10'
+                  scrolled ? 'h-7' : 'h-9'
                 }`}
               ></span>
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -71,7 +71,7 @@ export default function Navbar() {
                 src="/pssg-logo.png"
                 alt="PS&SG Lab"
                 className={`object-contain flex-shrink-0 transition-all duration-300 ${
-                  scrolled ? 'h-8 w-auto max-h-8' : 'h-11 w-auto max-h-11'
+                  scrolled ? 'h-9 w-9 max-h-9 max-w-9' : 'h-12 w-12 max-h-12 max-w-12'
                 }`}
               />
               <span
