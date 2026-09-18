@@ -4,24 +4,6 @@ import { motion } from 'framer-motion';
 import Navbar from '@/src/components/Navbar';
 import { teachingData } from '@/src/data/pages';
 
-const education = [
-  {
-    degree: 'PhD, Electrical Engineering',
-    institute: 'Indian Institute of Technology Kanpur',
-    icon: '🎓',
-  },
-  {
-    degree: 'ME, Electrical Engineering',
-    institute: 'M.S. University of Baroda, Gujarat',
-    icon: '📚',
-  },
-  {
-    degree: 'BE, Electrical Engineering',
-    institute: 'L D College of Engineering, Gujarat University, Gujarat',
-    icon: '⚡',
-  },
-];
-
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -67,7 +49,7 @@ export default function TeachingPage() {
             className="text-center mb-14"
           >
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Teaching &amp; Education
+              Teaching &amp; Courses Offered
             </h1>
             <p className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">
               Developing the next generation of energy researchers at IIT Gandhinagar.
@@ -107,35 +89,6 @@ export default function TeachingPage() {
                   <p className="text-gray-700 text-sm leading-relaxed">
                     {course.description}
                   </p>
-                </motion.div>
-              ))}
-            </div>
-          </motion.section>
-
-          {/* Education */}
-          <motion.section
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.1 }}
-            variants={containerVariants}
-            className="mb-20"
-          >
-            <SectionHeading
-              title="Education"
-              subtitle="Academic background of Prof. Naran M. Pindoriya"
-            />
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
-              {education.map((edu, idx) => (
-                <motion.div
-                  key={idx}
-                  variants={itemVariants}
-                  whileHover={{ y: -6, scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  className="liquid-glass rounded-3xl p-6 text-center h-full"
-                >
-                  <div className="text-4xl mb-3">{edu.icon}</div>
-                  <h3 className="text-lg font-bold text-blue-900 mb-2">{edu.degree}</h3>
-                  <p className="text-gray-700 text-sm">{edu.institute}</p>
                 </motion.div>
               ))}
             </div>
@@ -202,7 +155,7 @@ export default function TeachingPage() {
       <footer className="bg-blue-900 text-white py-12">
         <div className="container mx-auto px-6 text-center">
           <p className="mb-2">
-            © 2024 <strong>Power Systems and Smart Grid Lab @ IITGN</strong>
+            © 2024 <strong>Power Systems &amp; Smart Grid (PS&amp;SG) Lab @ IITGN</strong>
           </p>
           <p className="text-gray-300">
             IIT Gandhinagar | Advancing Sustainable Energy Solutions

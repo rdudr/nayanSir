@@ -29,7 +29,6 @@ export default function Navbar() {
     { name: 'Team', href: '/team' },
     { name: 'Publications', href: '/publications' },
     { name: 'Outreach', href: '/outreach' },
-    { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -59,20 +58,20 @@ export default function Navbar() {
                 src="/iitgn-logo.png"
                 alt="IIT Gandhinagar"
                 className={`object-contain transition-all duration-300 ${
-                  scrolled ? 'h-8 w-8' : 'h-11 w-11'
+                  scrolled ? 'h-10 w-auto' : 'h-14 w-auto'
                 }`}
               />
               <span
                 className={`w-px bg-blue-900/30 transition-all duration-300 ${
-                  scrolled ? 'h-7' : 'h-9'
+                  scrolled ? 'h-8' : 'h-10'
                 }`}
               ></span>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/pssg-logo.png"
-                alt="PSSG Lab"
+                alt="PS&SG Lab"
                 className={`object-contain transition-all duration-300 ${
-                  scrolled ? 'h-8 w-8' : 'h-11 w-11'
+                  scrolled ? 'h-8.5 w-auto' : 'h-12 w-auto'
                 }`}
               />
               <span
@@ -80,7 +79,7 @@ export default function Navbar() {
                   scrolled ? 'text-lg' : 'text-2xl'
                 }`}
               >
-                PSSG Lab
+                PS&SG Lab
               </span>
             </motion.div>
           </Link>

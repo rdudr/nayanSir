@@ -80,9 +80,9 @@ export default function ContactPage() {
             <motion.div variants={itemVariants}>
               <h2 className="text-3xl font-bold text-blue-900 mb-8">Contact Information</h2>
 
-              {/* Lab Director */}
+              {/* Principal Investigator */}
               <motion.div variants={itemVariants} className="mb-8 bg-blue-50 p-6 rounded-lg border-l-4 border-teal-600">
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">Lab Director</h3>
+                <h3 className="text-2xl font-bold text-blue-900 mb-4">Principal Investigator</h3>
                 <p className="text-lg text-gray-700 mb-2">
                   <strong>{contactData.details.director.name}</strong>
                 </p>

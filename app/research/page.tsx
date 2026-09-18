@@ -315,24 +315,26 @@ export default function ResearchPage() {
             >
               Simulation Software
             </motion.h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-stretch">
-              {labFacilities.software.map((sw, idx) => (
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+              {[
+                { name: 'CYMDIST', subtitle: 'Distribution Analysis', icon: '⚡' },
+                { name: 'DIgSILENT', subtitle: 'PowerFactory', icon: '🌐' },
+                { name: 'GAMS', subtitle: 'Optimization System', icon: '📐' },
+                { name: 'OpenDSS', subtitle: 'Distribution Simulator', icon: '🔄' },
+                { name: 'MATLAB / Simulink', subtitle: 'Numerical Computing', icon: '📊' },
+                { name: 'PSCAD', subtitle: 'Transient Simulator', icon: '💻' },
+              ].map((sw, idx) => (
                 <motion.div
                   key={idx}
                   variants={itemVariants}
-                  whileHover={{ y: -4 }}
-                  className="liquid-glass rounded-3xl p-6 h-full flex flex-col"
+                  whileHover={{ y: -6, scale: 1.03 }}
+                  className="liquid-glass rounded-2xl p-5 flex flex-col items-center justify-center text-center shadow-md hover:shadow-xl transition-all"
                 >
-                  <h4 className="text-base font-bold text-blue-900 mb-2">{sw.title}</h4>
-                  <p className="text-gray-700 text-sm mb-4">{sw.description}</p>
-                  <ul className="space-y-1 mt-auto">
-                    {sw.features.map((f, i) => (
-                      <li key={i} className="text-gray-700 text-xs flex gap-2">
-                        <span className="text-teal-600">•</span>
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-900 to-teal-600 text-white flex items-center justify-center text-2xl mb-3 shadow-inner">
+                    {sw.icon}
+                  </div>
+                  <h4 className="text-base font-bold text-blue-900 leading-tight">{sw.name}</h4>
+                  <span className="text-xs font-medium text-teal-700 mt-1">{sw.subtitle}</span>
                 </motion.div>
               ))}
             </div>
@@ -344,7 +346,7 @@ export default function ResearchPage() {
       <footer className="bg-blue-900 text-white py-12">
         <div className="container mx-auto px-6 text-center">
           <p className="mb-2">
-            © 2024 <strong>Power Systems and Smart Grid Lab @ IITGN</strong>
+            © 2024 <strong>Power Systems &amp; Smart Grid (PS&amp;SG) Lab @ IITGN</strong>
           </p>
           <p className="text-gray-300">
             IIT Gandhinagar | Advancing Sustainable Energy Solutions

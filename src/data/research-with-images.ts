@@ -3,9 +3,9 @@
 
 export const researchData = {
   lab: {
-    title: "Power System and Smart Grid Lab @ IITGN",
-    intro: "I lead the Power Systems and Smart Grid Lab in which we focus on active distribution grid management and flexible electricity market including demand side management through digitalization – for the successful transition to a low-carbon sustainable energy ecosystem.",
-    description: "Our specific expertise is in developing the hardware-software toolkits for demand side energy management – for distributed renewable energy and battery storage integration, and peer-to-peer energy trading and demand response participation by energy consumers. Our research benefits for better distribution network efficiency, resiliency and reduced carbon footprint in power and energy system.",
+    title: "Power Systems & Smart Grid Lab @ IITGN",
+    intro: "The Power Systems & Smart Grid (PS&SG) Lab focuses on active distribution grid management and flexible electricity markets, including demand-side management through digitalization for the successful transition to a low-carbon, sustainable energy ecosystem.",
+    description: "The lab specializes in developing hardware-software toolkits for demand-side energy management, distributed renewable energy and battery storage integration, peer-to-peer energy trading, and consumer demand response participation to improve distribution network efficiency, resiliency, and carbon footprint reduction.",
     focusAreas: [
       {
         title: "Electricity Markets",
@@ -30,10 +30,9 @@ export const researchData = {
       title: "CyberDiSS: Cyber-Attack Analysis Toolkit for Cyber-Physical Distribution System Security",
       period: "2022-2023",
       funding: "Central Power Research Institute (CPRI)",
-      description: "To develop the cyber-physical emulation for distribution system (CyberDiSS)",
+      description: "Development of cyber-physical emulation for power distribution systems (CyberDiSS) and a Cyber-attack Analysis Toolkit (CAT) for intrusion detection and threat mitigation.",
       achievements: [
-        "To develop the cyber-physical emulation for distribution system (CyberDiSS)",
-        "To build the Cyber-attack Analysis Toolkit (CAT) – a software platform and intrusion detection system (IDS) for securing the distribution system from potential cyber threats and attacks",
+        "Built the Cyber-attack Analysis Toolkit (CAT) – a software platform and intrusion detection system (IDS) for securing the distribution system from potential cyber threats and attacks",
       ],
       image: "/cyber-physical-system.png",  // ← UPDATED
       imageAlt: "Cyber Physical Power System",
@@ -99,7 +98,6 @@ export const researchData = {
       description: "A research program on data-driven software technology (big data analytics and real-time intelligence) platforms for intelligent energy management.",
       objectives: [
         "Develop key strategies, novel algorithms and models – to define interactions of smart technologies, DERs and digital networks",
-        "A research program on data-driven software technology (big data analytics and real-time intelligence) platforms",
         "Internal and outreaching exchange and dissemination of skill sets and knowledge",
       ],
       partners: [
@@ -119,7 +117,6 @@ export const researchData = {
       link: "http://solarpv.iitgn.ac.in/",
       description: "Energy monitoring, Data Analysis and Optimal DR strategies for campus-wide energy management.",
       objectives: [
-        "Energy monitoring, Data Analysis and Optimal DR strategies",
         "Optimization and machine learning approaches for energy management",
         "Promoting efficient energy utilization in the campus",
       ],
@@ -135,7 +132,7 @@ export const researchData = {
   labFacilities: {
     description: "PS&SG laboratory is equipped with a fully digital real-time power engineering simulation platform with real-time digital simulator – OP5600 and customized hardware and firmware for Hardware-in-the-loop (HIL) and Rapid control prototype (RCP) simulation studies.",
     image: "/pssg-lab-facilities.jpg",  // ← ADDED
-    imageAlt: "PSSG Lab Facilities",
+    imageAlt: "PS&SG Lab Facilities",
     hardware: [
       {
         title: "Real-Time Digital Simulator (OPAL-RT)",

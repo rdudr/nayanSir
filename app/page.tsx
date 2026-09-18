@@ -76,13 +76,13 @@ export default function Home() {
             </div>
             <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
               <p>
-                I am a Professor in Department of Electrical Engineering at <Link href="http://www.iitgn.ac.in/" target="_blank" className="text-blue-600 hover:text-blue-800 font-semibold">Indian Institute of Technology Gandhinagar</Link>, India. I was a research fellow in the Department of Electrical and Computer Engineering at <Link href="https://www.nus.edu.sg/" target="_blank" className="text-blue-600 hover:text-blue-800 font-semibold">National University of Singapore</Link>, Singapore in 2010. I received a PhD degree in Electrical Engineering from <Link href="https://www.iitk.ac.in/" target="_blank" className="text-blue-600 hover:text-blue-800 font-semibold">Indian Institute of Technology Kanpur</Link>, India in 2009. I am the principal investigator of <span className="italic font-semibold">Power Systems and Smart Grid lab</span> at IIT Gandhinagar.
+                Prof. Naran M. Pindoriya is a Professor in the Department of Electrical Engineering at <Link href="http://www.iitgn.ac.in/" target="_blank" className="text-blue-600 hover:text-blue-800 font-semibold">Indian Institute of Technology Gandhinagar</Link>, India. He was a research fellow in the Department of Electrical and Computer Engineering at <Link href="https://www.nus.edu.sg/" target="_blank" className="text-blue-600 hover:text-blue-800 font-semibold">National University of Singapore</Link>, Singapore in 2010. He received his Ph.D. degree in Electrical Engineering from <Link href="https://www.iitk.ac.in/" target="_blank" className="text-blue-600 hover:text-blue-800 font-semibold">Indian Institute of Technology Kanpur</Link>, India in 2009. He is the Principal Investigator of the <span className="italic font-semibold">Power Systems &amp; Smart Grid (PS&amp;SG) Lab</span> at IIT Gandhinagar.
               </p>
               <p>
-                We execute the <span className="text-blue-600 font-semibold">industry relevant national/international collaborative research and consultancy projects</span> to develop a strong industry-academic research program for supporting the successful transition to a promising environmentally sustainable <span className="italic">energy ecosystem</span> that involves (1) optimal utilization of distributed clean energy resources (2) developing smart grid technologies and (3) promoting energy efficiency at MSMEs industries and electricity distribution systems.
+                His research group executes <span className="text-blue-600 font-semibold">industry-relevant national and international collaborative research and consultancy projects</span> to develop a strong industry-academic research program supporting the successful transition to a promising environmentally sustainable <span className="italic">energy ecosystem</span> involving (1) optimal utilization of distributed clean energy resources, (2) developing smart grid technologies, and (3) promoting energy efficiency in MSME industries and electricity distribution systems.
               </p>
               <p>
-                I am the co-author/author of 90+ research papers (<Link href="/publications" className="text-blue-600 hover:text-blue-800 font-semibold">list of publications</Link>) in peer-reviewed international journals and conferences, and 6 book chapters.
+                He is the author/co-author of 90+ research papers (<Link href="/publications" className="text-blue-600 hover:text-blue-800 font-semibold">list of publications</Link>) in peer-reviewed international journals and conferences, and 6 book chapters.
               </p>
             </div>
           </motion.div>
@@ -105,9 +105,9 @@ export default function Home() {
 
           {/* Action Buttons */}
           <div className="mb-20 flex flex-wrap gap-4">
-            <Link href="/research">
-              <button className="px-8 py-4 bg-blue-900 text-white font-medium rounded-lg hover:bg-blue-800 transition-colors">
-                Explore Research
+            <Link href="/resume">
+              <button className="px-8 py-4 bg-blue-900 text-white font-medium rounded-lg hover:bg-blue-800 transition-colors flex items-center gap-2">
+                <span>📄</span> View CV / Resume
               </button>
             </Link>
             <Link href="/publications">
@@ -160,11 +160,11 @@ export default function Home() {
               </div>
               <div className="flex gap-3">
                 <span className="text-2xl">⭐</span>
-                <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power Systems Awards (GIPSA) 2025-26</strong> - Bishal Kumar Sah Teli (MTech) student of my research group won the award.</p>
+                <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power Systems Awards (GIPSA) 2025-26</strong> - Bishal Kumar Sah Teli (MTech) student in his research group won the award.</p>
               </div>
               <div className="flex gap-3">
                 <span className="text-2xl">⭐</span>
-                <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power Systems Awards (GIPSA) 2024-25</strong> - Abhishek Tiwari (PhD) and Devangi (MTech) students of my research group won the prestigious award.</p>
+                <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power Systems Awards (GIPSA) 2024-25</strong> - Abhishek Tiwari (PhD) and Devangi (MTech) students in his research group won the prestigious award.</p>
               </div>
               <div className="flex gap-3">
                 <span className="text-2xl">⭐</span>
@@ -179,7 +179,7 @@ export default function Home() {
               </div>
               <div className="flex gap-3">
                 <span className="text-2xl">⭐</span>
-                <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power System Awards (GIPSA)</strong> - Three MTech students of my research group (graduated in 2023, 2021 and 2020) won the award in the Master thesis category.</p>
+                <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power System Awards (GIPSA)</strong> - Three MTech students in his research group (graduated in 2023, 2021 and 2020) won the award in the Master thesis category.</p>
               </div>
             </div>
           </motion.div>
@@ -197,15 +197,21 @@ export default function Home() {
             <div className="ml-16 space-y-5">
               <div className="border-l-4 border-blue-900 pl-4">
                 <p className="font-bold text-blue-900 text-lg">PhD, Electrical Engineering</p>
-                <p className="text-gray-700 text-justify">Indian Institute of Technology Kanpur</p>
+                <p className="text-gray-700 text-justify">
+                  <Link href="https://www.iitk.ac.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">Indian Institute of Technology Kanpur</Link>
+                </p>
               </div>
               <div className="border-l-4 border-blue-900 pl-4">
                 <p className="font-bold text-blue-900 text-lg">ME, Electrical Engineering</p>
-                <p className="text-gray-700 text-justify">M.S. University of Baroda, Gujarat</p>
+                <p className="text-gray-700 text-justify">
+                  <Link href="https://www.msubaroda.ac.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">M.S. University of Baroda</Link>, Gujarat
+                </p>
               </div>
               <div className="border-l-4 border-blue-900 pl-4">
                 <p className="font-bold text-blue-900 text-lg">BE, Electrical Engineering</p>
-                <p className="text-gray-700 text-justify">L D College of Engineering, Gujarat University, Gujarat</p>
+                <p className="text-gray-700 text-justify">
+                  <Link href="https://ldce.ac.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">L D College of Engineering</Link>, <Link href="https://www.gujaratuniversity.ac.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold">Gujarat University</Link>, Gujarat
+                </p>
               </div>
             </div>
           </motion.div>
@@ -251,34 +257,24 @@ export default function Home() {
               <h2 className="text-3xl font-bold text-blue-900">Professional Affiliations & Services</h2>
             </div>
             <div className="ml-16 space-y-3">
-              <div className="flex gap-3">
-                <span className="text-xl">✓</span>
-                <p className="text-gray-700 text-justify"><strong>Independent Director</strong>, Gujarat State Electricity Corporation Ltd (GSECL), GUVNL, Vadodara</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-xl">✓</span>
-                <p className="text-gray-700 text-justify"><strong>Member, Research Advisory Committee</strong>, Electrical Research and Development Association (ERDA), Vadodara</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-xl">✓</span>
-                <p className="text-gray-700 text-justify"><strong>Associate Editor</strong>, IET Smart Grid</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-xl">✓</span>
-                <p className="text-gray-700 text-justify"><strong>Chair</strong>, IEEE PES Gujarat Chapter</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-xl">✓</span>
-                <p className="text-gray-700 text-justify"><strong>Senior Member</strong> of the IEEE and member of IEEE Power & Energy Society (PES) and IEEE Industrial Application Society (IAS)</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-xl">✓</span>
-                <p className="text-gray-700 text-justify"><strong>Fellow</strong> of the Institution of Engineers (India)</p>
-              </div>
-              <div className="flex gap-3">
-                <span className="text-xl">✓</span>
-                <p className="text-gray-700 text-justify"><strong>Fellow</strong> of The Institution of Electronics and Telecommunication Engineers (IETE)</p>
-              </div>
+              {[
+                <><strong>Independent Director</strong>, Gujarat State Electricity Corporation Ltd (GSECL), GUVNL, Vadodara</>,
+                <><strong>Member, Research Advisory Committee</strong>, Electrical Research and Development Association (ERDA), Vadodara</>,
+                <><strong>Associate Editor</strong>, IET Smart Grid</>,
+                <><strong>Chair</strong>, IEEE PES Gujarat Chapter</>,
+                <><strong>Senior Member</strong> of the IEEE and member of IEEE Power & Energy Society (PES) and IEEE Industrial Application Society (IAS)</>,
+                <><strong>Fellow</strong> of the Institution of Engineers (India)</>,
+                <><strong>Fellow</strong> of The Institution of Electronics and Telecommunication Engineers (IETE)</>,
+              ].map((text, idx) => (
+                <div key={idx} className="flex items-start gap-3">
+                  <div className="w-5 h-5 mt-1 rounded-full bg-blue-900/10 text-blue-900 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <p className="text-gray-700 text-justify">{text}</p>
+                </div>
+              ))}
             </div>
           </motion.div>
 
@@ -304,7 +300,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-blue-900 text-white py-12 mt-20">
         <div className="container mx-auto px-6 text-center">
-          <p className="mb-2">© 2024 <strong>Power Systems and Smart Grid Lab @ IITGN</strong></p>
+          <p className="mb-2">© 2024 <strong>Power Systems &amp; Smart Grid (PS&amp;SG) Lab @ IITGN</strong></p>
           <p className="text-gray-300">IIT Gandhinagar | Advancing Sustainable Energy Solutions</p>
         </div>
       </footer>

@@ -11,7 +11,7 @@ export default function Loading() {
           <div className="absolute inset-6 rounded-full border-2 border-white/50 animate-pulse"></div>
         </div>
 
-        <h1 className="text-3xl font-bold text-white mb-4">PSSG Lab</h1>
+        <h1 className="text-3xl font-bold text-white mb-4">PS&SG Lab</h1>
         <p className="text-white/80 text-lg">Loading Research Portfolio...</p>
 
         {/* Dots animation */}

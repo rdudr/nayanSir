@@ -8,7 +8,7 @@ export const homeData = {
   professorOverview: {
     name: 'Prof. Naran M. Pindoriya',
     title: 'Faculty, Department of Electrical Engineering',
-    subtitle: 'Founder & Director, Power Systems & Smart Grid Lab',
+    subtitle: 'Principal Investigator, Power Systems & Smart Grid Lab',
     bio: 'Prof. Pindoriya is a faculty member in the Department of Electrical Engineering at IIT Gandhinagar. He leads the Power Systems and Smart Grid Lab with a focus on bridging the gap between theoretical research and practical applications in energy systems. His research interests span active distribution grid management, flexible electricity markets, and demand-side energy management through digitalization.',
     expertise: [
       'Power Systems & Smart Grids',
@@ -111,7 +111,7 @@ export const teamData = {
     {
       id: 1,
       name: 'Prof. Naran M. Pindoriya',
-      role: 'Lab Director & Principal Investigator',
+      role: 'Principal Investigator',
       email: 'naran@iitgn.ac.in',
       expertise: [
         'Power Systems',
@@ -281,14 +281,14 @@ export const contactData = {
   details: {
     director: {
       name: 'Prof. Naran M. Pindoriya',
-      title: 'Director, PS&SG Lab',
+      title: 'Principal Investigator, PS&SG Lab',
       email: 'naran@iitgn.ac.in',
-      phone: '+91-XXXX-XXX-XXXX', // Update with actual number
+      phone: '+91-79-2395-2429',
     },
     lab: {
-      name: 'Power Systems & Smart Grid Lab',
-      building: 'Academic Building, IIT Gandhinagar',
-      address: 'Gandhinagar, Gujarat 382355, India',
+      name: 'Power Systems & Smart Grid (PS&SG) Lab',
+      building: 'Academic Block 3 (AB 3/312), Department of Electrical Engineering',
+      address: 'Indian Institute of Technology Gandhinagar, Palaj, Gandhinagar - 382355, Gujarat, India',
       website: 'https://iitgn.ac.in',
     },
   },
