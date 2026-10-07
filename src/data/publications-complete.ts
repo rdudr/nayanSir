@@ -337,7 +337,7 @@ export const publicationsData = {
     bookChapters: '7+',
     journalPublications: '30+',
     conferenceProceedings: '50+',
-    totalPublications: '87+',
+    totalPublications: '90+',
     impactFactorAverage: '6.5',
   },
 

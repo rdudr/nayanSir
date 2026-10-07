@@ -58,7 +58,7 @@ export default function Home() {
           {/* Stats */}
           <div className="mb-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-blue-50 p-6 rounded-xl">
-              <div className="text-4xl font-bold text-blue-900">87+</div>
+              <div className="text-4xl font-bold text-blue-900">90+</div>
               <p className="text-gray-600 mt-2 font-semibold">Publications</p>
             </div>
             <div className="bg-blue-50 p-6 rounded-xl">
@@ -121,32 +121,26 @@ export default function Home() {
             <div className="flex items-center gap-4 mb-6">
               <h2 className="text-3xl font-bold text-blue-900">Awards & Special Recognitions</h2>
             </div>
-            <div className="ml-16 space-y-4">
-              <div className="flex gap-3">
-                <span className="text-2xl">⭐</span>
+            <div className="ml-16 space-y-5">
+              <div className="border-l-4 border-blue-900 pl-4">
                 <p className="text-gray-700 text-justify"><strong>CII Industry–Academia Partnership Award 2025</strong> - Received under the Pioneering Faculty category, at CII Global Summit held on December 5, 2025, in New Delhi.</p>
               </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">⭐</span>
+              <div className="border-l-4 border-blue-900 pl-4">
                 <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power Systems Awards (GIPSA) 2025-26</strong> - Bishal Kumar Sah Teli (MTech) student in his research group won the award.</p>
               </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">⭐</span>
+              <div className="border-l-4 border-blue-900 pl-4">
                 <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power Systems Awards (GIPSA) 2024-25</strong> - Abhishek Tiwari (PhD) and Devangi (MTech) students in his research group won the prestigious award.</p>
               </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">⭐</span>
+              <div className="border-l-4 border-blue-900 pl-4">
                 <p className="text-gray-700 text-justify"><strong>Excellence in Outreach Activities Award</strong> - Received at IIT Gandhinagar for the academic year 2022-23.</p>
               </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">⭐</span>
+              <div className="border-l-4 border-blue-900 pl-4">
                 <p className="text-gray-700 text-justify">
                   <strong>India Smart Grid Forum (ISGF) Innovation Awards 2023</strong> - Platinum award for the award category "Smart Technology – Electricity Distribution".
                   <Link href="https://www.isuw.in/innovation-awards-2023" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold ml-2">View Details →</Link>
                 </p>
               </div>
-              <div className="flex gap-3">
-                <span className="text-2xl">⭐</span>
+              <div className="border-l-4 border-blue-900 pl-4">
                 <p className="text-gray-700 text-justify"><strong>GRID-INDIA Power System Awards (GIPSA)</strong> - Three MTech students in his research group (graduated in 2023, 2021 and 2020) won the award in the Master thesis category.</p>
               </div>
             </div>
@@ -224,23 +218,19 @@ export default function Home() {
             <div className="flex items-center gap-4 mb-6">
               <h2 className="text-3xl font-bold text-blue-900">Professional Affiliations & Services</h2>
             </div>
-            <div className="ml-16 space-y-3">
+            <div className="ml-16 space-y-5">
               {[
-                <><strong>Independent Director</strong>, Gujarat State Electricity Corporation Ltd (GSECL), GUVNL, Vadodara</>,
-                <><strong>Member, Research Advisory Committee</strong>, Electrical Research and Development Association (ERDA), Vadodara</>,
-                <><strong>Associate Editor</strong>, IET Smart Grid</>,
-                <><strong>Chair</strong>, IEEE PES Gujarat Chapter</>,
-                <><strong>Senior Member</strong> of the IEEE and member of IEEE Power & Energy Society (PES) and IEEE Industrial Application Society (IAS)</>,
-                <><strong>Fellow</strong> of the Institution of Engineers (India)</>,
-                <><strong>Fellow</strong> of The Institution of Electronics and Telecommunication Engineers (IETE)</>,
-              ].map((text, idx) => (
-                <div key={idx} className="flex items-start gap-3">
-                  <div className="w-5 h-5 mt-1 rounded-full bg-blue-900/10 text-blue-900 flex items-center justify-center flex-shrink-0">
-                    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-                  </div>
-                  <p className="text-gray-700 text-justify">{text}</p>
+                { role: 'Independent Director', org: 'Gujarat State Electricity Corporation Ltd (GSECL), GUVNL, Vadodara' },
+                { role: 'Member, Research Advisory Committee', org: 'Electrical Research and Development Association (ERDA), Vadodara' },
+                { role: 'Associate Editor', org: 'IET Smart Grid' },
+                { role: 'Chair', org: 'IEEE PES Gujarat Chapter' },
+                { role: 'Senior Member', org: 'IEEE — Power & Energy Society (PES) and Industrial Application Society (IAS)' },
+                { role: 'Fellow', org: 'Institution of Engineers (India)' },
+                { role: 'Fellow', org: 'The Institution of Electronics and Telecommunication Engineers (IETE)' },
+              ].map((item, idx) => (
+                <div key={idx} className="border-l-4 border-blue-900 pl-4">
+                  <p className="font-bold text-blue-900 text-lg">{item.role}</p>
+                  <p className="text-gray-700">{item.org}</p>
                 </div>
               ))}
             </div>
